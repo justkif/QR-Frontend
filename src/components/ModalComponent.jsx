@@ -47,6 +47,7 @@ export default function ModalComponent({ data, type, cancel, confirm }) {
                         />
                     </div>
                 )}
+                {type === 'reset' && <p className='text-black text-center'>Reset all scan data?</p>}
                 <div className='flex items-center'>
                     <button
                         className='px-4 py-2 bg-red-500 text-white rounded mt-4 mx-auto w-auto mr-10'
