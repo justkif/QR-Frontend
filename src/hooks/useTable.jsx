@@ -8,6 +8,7 @@ export default function useTable() {
         <TableComponent
             type={tableData.type}
             data={tableData.data}
+            onClick={tableData.onClick}
         />
     : null;
     return { table, Table }
